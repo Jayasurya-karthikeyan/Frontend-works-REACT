@@ -1,0 +1,23 @@
+.test-parent {
+  display: flex;
+  min-width: 100vw;
+}
+
+.sidebar {
+  background-color: #54336e;
+  width: 15%;
+  min-height: 100vh;
+  border-right: 4px solid white;
+}
+
+.main-body {
+  width: 85%;
+  padding: 1.5%;
+  height: 90vh;
+}
+.navvbar {
+  height: 10vh;
+  background-color: #54336e;
+  min-width: 100vw;
+}
+

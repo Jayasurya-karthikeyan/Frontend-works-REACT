@@ -1,0 +1,80 @@
+.side-bar .divider {
+  max-width: 90%;
+  border-bottom: 3px solid white;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.side-bar .header ul {
+  background-color: #8c69a875;
+  border-radius: 5px;
+}
+
+.side-bar .header li {
+  border-bottom: 1px solid white;
+}
+/* .side-menus {
+  border-left: 1px solid white;
+} */
+
+.side-menus ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.side-menus {
+  border-radius: 5px;
+  padding:5px 2px;
+  background-color: #8c69a848;
+}
+
+.sub-menu {
+  padding-left: 13px !important;
+  border-left: 0.2px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding:5px 2px;
+  background-color: #8c69a875;
+}
+
+.sub-menu-steps {
+  padding-left: 13px !important;
+  border-left: 0.2px dashed rgba(255, 255, 255, 0.3);
+}
+.menu-list {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 10px 10px;
+}
+
+.menu-item {
+  text-decoration: 2px underline;
+
+}
+.menu-item :hover {
+  color: yellow;
+  text-decoration: 2px underline white;
+}
+.submenu-name {
+  text-decoration: 2px underline;
+}
+.submenu-name:hover {
+  color: yellow;
+  text-decoration: 2px underline white;
+}
+a:hover{
+  color:yellow;
+}
+
+.sub-menu-steps .active {
+  background-color: #8c69a8;
+  padding:5px;
+  padding-right:10px;
+  border-radius: 10px;
+  color: yellow;
+}
+/* .side-menus {
+  background-color: #8c69a8;
+  border-radius: 5px;
+} */

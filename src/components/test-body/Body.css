@@ -1,0 +1,12 @@
+.body .title h2 {
+  font-weight: bold;
+}
+
+.body .title hr {
+  text-align: center;
+  width: 100%;
+  border-top: 2px solid floralwhite;
+}
+.rupees {
+  margin-left: 50px !important;
+}
