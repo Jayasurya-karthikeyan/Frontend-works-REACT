@@ -1,10 +1,12 @@
 import "./App.css";
-import { Button } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Test from "./components/Test/Test";
-import Participants from "./Participants";
-import Complaints from "./Complaints";
+import Participants from "./Completed/Participants";
+import Complaints from "./Completed/Complaints";
+import Winners from "./Winners";
+import Final from "./Final";
+import Sidebars from "./Sidebars";
 
 function App() {
   return (
@@ -12,8 +14,11 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/test" component={Test} />
-          <Route exact path="/" component={Complaints} />
+          <Route exact path="/" component={Final} />
+          <Route exact path="/winners" component={Winners} />
+          <Route exact path="/complaints" component={Complaints} />
           <Route exact path="/participants" component={Participants} />
+          <Route exact path="/sidebars" component={Sidebars} />
         </Switch>
       </Router>
     </div>
